@@ -1,0 +1,40 @@
+body {
+  backdrop-filter: invert(20%);
+	background: linear-gradient(135deg, #e55d87 calc(20% + 1vw), #5fc3e4 100%);
+}
+.content{
+  height: 100%;
+  color: white;
+}
+.main_header{
+  font-size: calc(1vh + 2vw);
+  font-weight: 500;
+}
+.head_block{
+  padding-top: 5vw;
+  font-family: sans-serif;
+  text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+.headline_text{
+  font-size: 10vw;
+}
+.italic_underline{
+  font-size: 3vw;
+  font-style: italic;
+}
+
+button{
+  filter: opacity(70%);
+  text-decoration: none;
+  color: white;
+  font-size: 100%;
+  border-radius: 2vw;
+  background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+  background-size: 200%;
+  transition: filter 0.3s linear;
+}
+button:hover{
+  filter: opacity(100%);
+}
