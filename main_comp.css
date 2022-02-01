@@ -1,3 +1,5 @@
+/*old style. check main.css*/
+
 body {
   backdrop-filter: invert(20%);
 	background: linear-gradient(135deg, #e55d87 calc(20% + 1vw), #5fc3e4 100%);
